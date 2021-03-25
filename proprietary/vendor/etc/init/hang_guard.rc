@@ -1,5 +1,0 @@
-service hang_guard /vendor/bin/hang_guard
-    class late_start
-    user system
-    group system readproc
-    capabilities KILL
