@@ -2398,7 +2398,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     atfwd \
     colorservice \
-    datastatusnotification \
     embms \
     imssettings \
     WfdService \
