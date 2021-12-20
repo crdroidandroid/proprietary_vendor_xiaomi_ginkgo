@@ -215,10 +215,90 @@ android_app_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys-V2.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys.V3_0",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys.V3_0.jar"],
+}
+
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "xiaomi",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
+	soc_specific: true,
+}
+
+dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "xiaomi",
 	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
 	product_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.soter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
