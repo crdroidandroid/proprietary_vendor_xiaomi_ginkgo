@@ -309,6 +309,13 @@ dex_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -491,6 +498,13 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
@@ -613,6 +627,13 @@ dex_import {
 	name: "vendor.qti.hardware.slmadapter-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.soter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
@@ -746,27 +767,6 @@ dex_import {
 	name: "vendor.qti.latency-V2.1-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "audiosphere",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.alarm-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.soter-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
